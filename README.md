@@ -102,6 +102,14 @@ python src/demo_tracking.py
 ```
 *Outputs real-time tracking console data directly to your terminal.*
 
+### Option 3: Run PyTest QA Suite
+For continuous integration and QA, the mathematical validity of the phase shifts and array tensors are covered by a `pytest` suite.
+
+```bash
+pytest tests/
+```
+*Outputs validation test passes directly to your terminal.*
+
 ---
 
 ## 📅 Architecture & Future Roadmap
